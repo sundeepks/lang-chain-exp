@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "lang-chain-exp"
+version = "0.1.0"
+description = ""
+authors = ["sundeepks"]
+readme = "README.md"
+packages = [{include = "lang_chain_exp"}]
+
+
+[tool.poetry.dependencies]
+python = ">=3.9,<3.9.7 || >3.9.7,<4.0"
+langchain = "^0.0.234"
+streamlit = "^1.24.1"
+pypdf2 = "^3.0.1"
+python-dotenv = "^1.0.0"
+faiss-cpu = "^1.7.4"
+openai = "^0.27.8"
+huggingface-hub = "^0.16.4"
+instructorembedding = "^1.0.1"
+sentence-transformers = "^2.2.2"
+urllib3 = "1.26.6"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
